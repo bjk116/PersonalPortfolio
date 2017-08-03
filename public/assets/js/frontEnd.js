@@ -12,11 +12,8 @@ $( document ).ready(function(){
 
 	//Scrollfire
 	var options = [
-		{selector: '#projects', offset: 400, callback: function(el) {
+		{selector: '#projects', offset: 0, callback: function(el) {
 			Materialize.toast("This is our ScrollFire Demo!", 1500 )
-		} },
-		{selector: '#skills', offset: 500, callback: function(el) {
-			Materialize.fadeInImage($(el));
 		} }
 	];
 	Materialize.scrollFire(options);
