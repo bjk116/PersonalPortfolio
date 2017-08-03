@@ -1,31 +1,73 @@
 <!DOCTYPE html>
 <html>
-<head>
-	<meta charset = "UTF-8">
+	<head>
+		<meta charset = "UTF-8">
 
-	<title>Welcome to Brian Karabinchak's Landing Page</title>
+		<title>Welcome to Brian Karabinchak's Landing Page</title>
 
-	<!--Import Google Icon Font-->
-	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-	<!--Material Design-->
-	<link rel = "stylesheet" href = "https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.1/css/materialize.min.css">
-	<!--Custom CSS-->
-	<link rel = "stylesheet" href="assets/css/style.css">
-</head>
-<body>
-	<div class = "container">
-		<!--Header-->
-		<div class = "row header">
-			<div class = "col s12 m12 l12">
-				<h2>Brian Karabinchak</h2>
+		<!--Import Google Icon Font-->
+		<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+		<!--Material Design-->
+		<link rel = "stylesheet" href = "https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.1/css/materialize.min.css">
+		<!--Custom CSS-->
+		<link rel = "stylesheet" href="assets/css/style.css">
+	</head>
+	<body>
+		<!--Nav bar above the about me 10%, sticky-->
+		<div class = "navbar-fixed">
+			<nav>
+				<div class="nav-wrapper">
+					<a href="#" class = "brand-logo">Logo</a>
+					<ul id="nav-mobile" class="right hide-on-med-and-down">
+						<li class = "nav-link active"><a href="#about-me">About Me</a></li>
+						<li class = "nav-link"><a href="#projects">Projects</a></li>
+						<li class = "nav-link"><a href="#skills">Skills</a></li>
+					</ul>
+				</div>
+			</nav>
+		</div>
+		<!--About me under nav bar -->
+		<div class = "row section scrollspy" id = "about-me">
+			<div class = "col m5 offset-m1">
+			</div>
+			<div class = "col m5">
+				<h2><b><u>About Me</u></b></h2>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
 			</div>
 		</div>
-	</div>
-
-	<!--jQuery CDN-->
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-	<!--Material Design JS-->
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.1/js/materialize.min.js"></script>
-
-</body>
+		<!--Projects -->
+		<div class = "row section scrollspy" id = "projects">
+			<div class = "col m12 center-align">
+				<h2><b><u>Projects</u></b></h2>
+			</div>
+			<div class = "col m5 offset-m1">
+				<div class = "center-align">
+					<h3><u>Travel-Blog</u></h3>
+				</div>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
+			</div>
+			<div class = "col m5">
+				<div class = "center-align">
+					<h3><u>Who's Your Rep?</u></h3>
+				</div>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
+			</div>
+		</div>
+		<!--Skills-->
+		<div class = "row section scrollspy" id = "skills">
+			<div class = "col m12 center-align">
+				<h2><b><u>Skills</u></b></h2>
+			</div>
+			<div class = "col m10 offset-m1">
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
+			</div>
+		</div>
+		
+		<!--jQuery CDN-->
+		<script src = "https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+		<!--Material Design JS-->
+		<script src = "https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.1/js/materialize.min.js"></script>
+		<!--Custom JS-->
+		<script src = "assets/js/frontEnd.js"></script>
+	</body>
 </html>

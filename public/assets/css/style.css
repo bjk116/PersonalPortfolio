@@ -1,3 +1,36 @@
-.header {
-	background-color: #444444;
+#welcome  {
+	background-color: #666666;
+	border-bottom: solid;
+	border-bottom-width: 3px;
+	border-bottom-color: #000000;
+	height: 33%;
+}
+
+.row {
+	margin-bottom:0px;
+	padding-top: 8%;
+	width:100%;
+}
+
+#about-me {
+	background-color: #29524A;
+	color: #DDDDDD;
+}
+
+#projects {
+	background-color: #280004;
+	color: #CCC9A1;
+}
+
+#skills {
+	background-color: #4C230A;
+	color: #F0FFCE;
+}
+/*
+	Height of rows for different views
+*/
+@media screen and (min-width: 584px) {
+	.row{
+		height: 664px;
+	}
 }
