@@ -17,11 +17,12 @@
 		<div class = "navbar-fixed">
 			<nav>
 				<div class="nav-wrapper">
-					<a href="#" class = "brand-logo">Logo</a>
+					<a href="#" class = "brand-logo">Brian Karabinchak</a>
 					<ul id="nav-mobile" class="right hide-on-med-and-down">
 						<li class = "nav-link active"><a href="#about-me">About Me</a></li>
 						<li class = "nav-link"><a href="#projects">Projects</a></li>
 						<li class = "nav-link"><a href="#skills">Skills</a></li>
+						<li class = "nav-link"><a href="#skills">Contact Me</a></li>
 					</ul>
 				</div>
 			</nav>
@@ -40,27 +41,55 @@
 			<div class = "col m12 center-align">
 				<h2><b><u>Projects</u></b></h2>
 			</div>
-			<div class = "col m5 offset-m1">
-				<div class = "center-align">
-					<h3><u>Travel-Blog</u></h3>
-				</div>
-				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
-			</div>
-			<div class = "col m5">
-				<div class = "center-align">
-					<h3><u>Who's Your Rep?</u></h3>
-				</div>
-				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
-			</div>
+			<ul id="tabs-swipe-demo" class="tabs">
+				<li class="tab col m3" id = "left-tab"><a href="#test-swipe-1">Travel Blog</a></li>
+				<li class="tab col m3"><a class="active" href="#test-swipe-2">Who's Your Rep</a></li>
+				<li class="tab col m3"><a href="#test-swipe-3">Mindful Quitting</a></li>
+			</ul>
+			<div id="test-swipe-1" class="col m10 offset-m1 blue tab-content">
+			<!--Do a pic on the left, text on the right -->
+			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p></div>
+			<div id="test-swipe-2" class="col m10 offset-m1 red tab-content"><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p></div>
+			<div id="test-swipe-3" class="col m10 offset-m1 green tab-content"><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p></div>
 		</div>
 		<!--Skills-->
 		<div class = "row section scrollspy" id = "skills">
 			<div class = "col m12 center-align">
 				<h2><b><u>Skills</u></b></h2>
 			</div>
-			<div class = "col m10 offset-m1">
-				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
+			<div class = "col m5 offset-m1">
+				<ul class="collection with-header">
+					<li class="collection-header"><h4>Technologies</h4></li>
+					<li class="collection-item">HTML 5</li>
+					<li class="collection-item">CSS 3</li>
+					<li class="collection-item">Javascript</li>
+					<li class="collection-item">jQuery</li>
+					<li class="collection-item">Node</li>
+					<li class="collection-item">Express</li>
+					<li class="collection-item">MySQL</li>
+					<li class="collection-item">MongoDB</li>
+					<li class="collection-item">Passport.js</li>
+				</ul>
 			</div>
+			<div class = "col m5">
+				<ul class="collection with-header colleection-bg">
+					<li class="collection-header"><h4>Math</h4></li>
+					<li class="collection-item">Calculus</li>
+					<li class="collection-item">Probability</li>
+					<li class="collection-item">Stochastic Processes</li>
+					<li class="collection-item">Linear Programming</li>
+					<li class="collection-item">Mathematical Reasoning</li>
+					<li class="collection-item">Abstract Algebra</li>
+					<li class="collection-item">Number Theory</li>
+				</ul>			
+			</div>
+		</div>
+		<div class = "row section scrollspy" id = "contact-me">
+			<!--Make a contact for developer services, one for tutoring services-->
+			<div class = "col m12 center-align">
+				<h2><b><u>Contact Me</u></b></h2>
+			</div>
+
 		</div>
 		
 		<!--jQuery CDN-->

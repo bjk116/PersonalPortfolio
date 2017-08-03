@@ -2,24 +2,28 @@ $( document ).ready(function(){
 	//Material Design initializations
 	$(".button-collapse").sideNav();
 	$('.scrollspy').scrollSpy();
+    $('ul.tabs').tabs('select_tab', 'tab_id');
 
+	var options = [
+			{selector: '.class', offset: 200, callback: 'globalFunction()' },
+			{selector: '.other-class', offset: 200, callback: 'globalFunction()' },
+		];
+	Materialize.scrollFire(options);
 
 	//Scrollfire
 	var options = [
-		{selector: '#staggered-test', offset: 50, callback: function(el) {
-			Materialize.toast("This is our ScrollFire Demo!", 1500 );
+		{selector: '#projects', offset: 400, callback: function(el) {
+			Materialize.toast("This is our ScrollFire Demo!", 1500 )
 		} },
-		{selector: '#staggered-test', offset: 205, callback: function(el) {
-			Materialize.toast("Please continue scrolling!", 1500 );
-		} },
-		{selector: '#staggered-test', offset: 400, callback: function(el) {
-			Materialize.showStaggeredList($(el));
-		} },
-		{selector: '#image-test', offset: 500, callback: function(el) {
+		{selector: '#skills', offset: 500, callback: function(el) {
 			Materialize.fadeInImage($(el));
 		} }
 	];
 	Materialize.scrollFire(options);
+
+	/*
+		Do showStaggeredList Scroll file for skills list
+	*/
 
 	//Switch active toggle on nav-bar link
 	$('.nav-link').on('click', function(event) {
@@ -28,5 +32,5 @@ $( document ).ready(function(){
 		//then add active for clicked
 		$(this).addClass('active');
 	});
-	
+
 });
