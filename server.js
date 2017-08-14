@@ -4,7 +4,7 @@ var bodyParser = require('body-parser');
 
 
 //Set up port and express app
-var port = process.env.port || 3000;
+var port = process.env.PORT || 3000;
 var app = express();
 
 //Allow views to access public folder
