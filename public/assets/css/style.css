@@ -34,6 +34,11 @@ nav {
 	height: 33%;
 }
 
+#contact-me {
+	background-color: #1B4079;
+	color: #8FAD88;
+}
+
 .row {
 	margin-bottom:0px;
 	padding-top: 8%;
